@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- BASIC -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Maria Magdy | Frontend Developer Portfolio</title>
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Maria Magdy - Frontend Developer based in Cairo. Building responsive, modern websites using HTML, CSS, JavaScript, React, Tailwind, and Next.js."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, HTML, CSS, JavaScript, React, Tailwind, Next.js, Portfolio"
+    />
+    <meta name="author" content="Maria Magdy" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="container nav-content">
+        <a href="#" class="logo">Maria<span>.</span></a>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a class="btn small outline" href="cv.pdf" download>
+            <i class="fa-solid fa-download"></i> CV
+          </a>
+
+          <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-content fade-in">
+        <div class="hero-text">
+          <p class="badge">
+            <i class="fa-solid fa-code"></i> Frontend Developer
+          </p>
+
+          <h1>
+            Building Fast, Responsive Websites That Look Premium and Convert Users
+          </h1>
+
+          <p class="hero-subtext">
+            I help businesses and personal brands create modern, mobile-friendly
+            websites using <strong>JavaScript, React, and clean UI design</strong>
+            — delivering smooth user experiences that improve engagement and trust.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">
+              View My Projects <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <h3>3+</h3>
+              <p>Projects Built</p>
+            </div>
+
+            <div class="stat">
+              <h3>100%</h3>
+              <p>Responsive Layouts</p>
+            </div>
+
+            <div class="stat">
+              <h3>DEPI</h3>
+              <p>Project-Based Training</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="profile-img">
+            <img src="assets/profile.jpg" alt="Maria Magdy" />
+          </div>
+
+          <h2>Maria Magdy</h2>
+          <p class="role">Frontend Developer</p>
+
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:maria190magdy@gmail.com" target="_blank"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </div>
+
+          <div class="mini-info">
+            <p><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</p>
+            <p><i class="fa-solid fa-phone"></i> +20 1207084341</p>
+          </div>
+
+          <a class="btn primary full" href="#contact">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container fade-in">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">
+          Hi, I’m <strong>Maria Magdy</strong>, a Frontend Developer based in
+          <strong>Cairo, Egypt</strong>.
+        </p>
+
+        <div class="about-layout">
+          <div class="about-text">
+            <h3>What I Do</h3>
+            <p>
+              I build modern, responsive websites that help brands look professional,
+              improve usability, and create a smooth customer journey across all devices.
+            </p>
+
+            <h3>How I Add Value</h3>
+            <p>
+              I combine clean UI design principles with strong frontend development skills
+              to deliver websites that feel premium, load fast, and are easy to maintain.
+            </p>
+
+            <h3>My Focus</h3>
+            <ul class="check-list">
+              <li>Mobile-first responsive layouts</li>
+              <li>Clean, structured, maintainable code</li>
+              <li>Modern UI styling & user-friendly design</li>
+              <li>Professional GitHub workflow</li>
+            </ul>
+          </div>
+
+          <div class="about-cards">
+            <div class="info-card">
+              <h4><i class="fa-solid fa-bolt"></i> Fast UI Delivery</h4>
+              <p>
+                I deliver clean layouts quickly while keeping UI consistent and professional.
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h4><i class="fa-solid fa-mobile"></i> Responsive Design</h4>
+              <p>
+                Every website is optimized for mobile, tablet, and desktop screens.
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h4><i class="fa-solid fa-layer-group"></i> Modern Tech Stack</h4>
+              <p>
+                Skilled in React, Tailwind, TypeScript, and modern frontend workflows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section dark" id="services">
+      <div class="container fade-in">
+        <h2 class="section-title">Services</h2>
+        <p class="section-desc">
+          High-quality frontend solutions designed to help your business look premium and perform better.
+        </p>
+
+        <div class="grid-3">
+          <div class="service-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Responsive Website Development</h3>
+            <p>
+              Mobile-first websites that look clean on every screen size, improving user trust and engagement.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Frontend UI Implementation</h3>
+            <p>
+              Pixel-clean UI implementation with consistent spacing, typography, and layout structure.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>React Web Applications</h3>
+            <p>
+              Dynamic apps built with React and TypeScript for scalability, performance, and maintainability.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fa-solid fa-bullseye"></i>
+            <h3>Landing Pages That Convert</h3>
+            <p>
+              High-impact landing pages designed to guide users toward actions like contacting or booking.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <h3>Website Redesign / UI Upgrade</h3>
+            <p>
+              Modernize outdated websites into premium layouts that feel clean, fresh, and professional.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <i class="fa-solid fa-gauge-high"></i>
+            <h3>Performance Optimization</h3>
+            <p>
+              Improve website loading speed and structure for better user experience and SEO.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section" id="achievements">
+      <div class="container fade-in">
+        <h2 class="section-title">Key Achievements</h2>
+
+        <div class="achievement-box">
+          <ul>
+            <li>
+              Built multiple responsive websites using HTML5, CSS3, and JavaScript,
+              ensuring usability across mobile and desktop devices.
+            </li>
+            <li>
+              Delivered modern UI layouts that improved design consistency and user experience
+              across complete website pages.
+            </li>
+            <li>
+              Developed scalable layout systems using Flexbox and CSS positioning,
+              making websites easier to maintain and update.
+            </li>
+            <li>
+              Enhanced mobile-first user experience by optimizing sections, spacing, and layout structure.
+            </li>
+            <li>
+              Applied professional GitHub workflow for version control and clean project delivery.
+            </li>
+            <li>
+              Completed DEPI project-based frontend training while continuously improving development speed and UI quality.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section dark" id="projects">
+      <div class="container fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">
+          Real projects showcasing responsive design, modern UI layout building, and clean frontend development.
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="assets/project1.png" alt="Fashion Photography Website" />
+            <div class="project-body">
+              <h3>Fashion Photography Website</h3>
+              <p>
+                Modern photography portfolio website designed for premium branding and visual storytelling.
+              </p>
+
+              <ul>
+                <li>Responsive layout across all screen sizes</li>
+                <li>Improved content hierarchy and clarity</li>
+                <li>Modern UI design supporting professional branding</li>
+              </ul>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/maria190magdy-beep/fashion-photography-site"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/project2.png" alt="Responsive Mini Web Project" />
+            <div class="project-body">
+              <h3>Responsive Mini Web Project</h3>
+              <p>
+                A structured responsive webpage focused on layout clarity and mobile-first design.
+              </p>
+
+              <ul>
+                <li>Clean HTML/CSS structure</li>
+                <li>Organized styling for maintainability</li>
+                <li>Improved UI consistency and spacing</li>
+              </ul>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/maria190magdy-beep/mini-project"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/project3.png" alt="Frontend First Website Project" />
+            <div class="project-body">
+              <h3>Frontend First Website Project</h3>
+              <p>
+                Responsive website project focused on layout building and cross-device compatibility.
+              </p>
+
+              <ul>
+                <li>Built layouts using Flexbox and positioning</li>
+                <li>Improved cross-browser behavior</li>
+                <li>Mobile-first layout structure</li>
+              </ul>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <a
+                class="btn small"
+                target="_blank"
+                href="https://github.com/maria190magdy-beep/frontend-first-project"
+                >View on GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container fade-in">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Frontend Developer (Project-Based) — DEPI</h3>
+            <p class="timeline-date">Nov 2025 – Present</p>
+            <p>
+              Worked on real-world frontend projects focused on building responsive layouts,
+              improving UI quality, and delivering structured websites using modern frontend practices.
+            </p>
+
+            <ul>
+              <li>Delivered responsive websites optimized for all screen sizes</li>
+              <li>Improved UI design quality through consistent layout structure</li>
+              <li>Used GitHub for professional workflow and version control</li>
+              <li>Improved project delivery speed and clean code organization</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section dark" id="certifications">
+      <div class="container fade-in">
+        <h2 class="section-title">Certifications</h2>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>React Front-End Web Development</h3>
+            <p>DEPI</p>
+          </div>
+
+          <div class="cert-card">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>Artificial Intelligence Technology and Applications</h3>
+            <p>Huawei ICT Academy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container fade-in">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skills-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Tailwind, Bootstrap</p>
+          </div>
+
+          <div class="skills-card">
+            <h3>Programming Languages</h3>
+            <p>Python, Java, C++, JavaScript</p>
+          </div>
+
+          <div class="skills-card">
+            <h3>Backend Basics</h3>
+            <p>PHP, MySQL</p>
+          </div>
+
+          <div class="skills-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, Figma, XAMPP</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section dark" id="education">
+      <div class="container fade-in">
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+          <h3>B.Sc. in Computer Science — October University</h3>
+          <p>Oct 2023 – Jul 2027</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container fade-in">
+        <h2 class="section-title">Let’s Build Something Great</h2>
+        <p class="section-desc">
+          If you’re looking for a frontend developer who can build clean, modern, responsive websites
+          with strong UI quality — I’d love to connect.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</p>
+            <p><i class="fa-solid fa-envelope"></i> maria190magdy@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +20 1207084341</p>
+
+            <div class="social-icons contact-social">
+              <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <a
+              class="btn whatsapp"
+              target="_blank"
+              href="https://wa.me/201207084341"
+            >
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp Me
+            </a>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="btn primary full">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+            <p class="form-msg" id="formMsg"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="backToTop">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© 2026 Maria Magdy. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
